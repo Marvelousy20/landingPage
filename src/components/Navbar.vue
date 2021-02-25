@@ -1,0 +1,95 @@
+<template>
+    <div>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <img src="../assets/logo.png" class="desktop logo" alt="logo">
+                        <img src="../assets/mobile/EGM_.png" class="mobile" alt="logo">
+                    </li>
+                    <li class="spacer"></li>
+                    <li class="line"><span class="contact"> Contact :</span> <span class="number">08035138790</span></li>
+                    <li><span class="email"> Email : </span> <span class="mail">support@eagleglobalmarkets.com</span></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+</template>
+
+<style scoped>
+    header {
+        height: 168px;
+        background: #010C13;
+        color: #fff;
+        font-family: 'Proxima Nova Light';
+    }
+
+    .contact, .email {
+        font-family: 'Proxina Nova';
+        font-size: 15px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    nav {
+        height: 100%;
+    }
+
+    ul {
+        list-style: none;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0 100px;
+    }
+
+    .line::after {
+        content: '|';
+        padding: 15px;
+    }
+
+    .spacer {
+        flex: 1;
+    }
+
+    .number, .mail {
+        font-family: 'Proximal Nova Light';
+        font-size: 15px;
+        opacity: .9;
+    }
+
+    @media screen and (max-width: 700px) {
+        header {
+            height: 80px;
+        }
+
+        .desktop {
+            display: none;
+        }
+        .mobile {
+            display: block;
+        }
+
+        ul {
+            list-style: none;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .line {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 850px) and (min-width: 701px) {
+        .line {
+            display: none;
+        }
+    }
+</style>
