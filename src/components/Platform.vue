@@ -237,4 +237,10 @@
         }
     }
 
+
+    @media screen and (min-width: 1500px){
+        .plat {
+            padding-left:13rem;
+        }
+    }
 </style>

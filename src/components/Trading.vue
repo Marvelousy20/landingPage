@@ -81,6 +81,7 @@
         text-align: center;
         margin-bottom: 40px;
         margin-top: 100px;
+        max-width: 100vw;
         /* margin: 80px 0; */
         font-family: 'Proxima Nova SemiBold';
     }

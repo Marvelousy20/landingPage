@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid">
-        <div class="uncover">Uncover a trading experience that’s built just for you.</div>
+        <div class="uncover">Uncover a trading experience <br> that’s built just for you.</div>
 
         <div class="img-text-cont mt-5">
             <div>
@@ -13,7 +13,7 @@
                 <img class="mobile" src="../assets/Component 2 – 2.svg" alt="">
             </div>
 
-            <div>
+            <div class="central">
                 <img class="img" src="../assets/stock-market (2).svg" alt="">
                 <div class="text mt-3">1000+ Assets to trade <br> on 3 unique platforms</div>
             </div>
@@ -42,11 +42,11 @@
     }
 
     .uncover {
-        max-width: 660px;
+        /* max-width: 800px; */
         font-size: 3.5vw;
         text-align: center;
         margin: 20px auto;
-        margin-left: 400px;
+        /* margin-left: 300px; */
         margin-bottom: 120px;
         font-family: 'Proxima Nova SemiBold';
         line-height: 63px;
@@ -55,8 +55,9 @@
     .img-text-cont {
         display: flex;
         text-align: center;
-        max-width: 1215px;
+        /* max-width: 1215px; */
         justify-content: space-between;
+        padding: 0 50px;
         margin: 0 auto;
     }
 
@@ -68,6 +69,10 @@
 
     .mobile {
         display: none;
+    }
+
+    .desktop, .central {
+        margin-left: -60px;
     }
 
     .img {
@@ -143,4 +148,8 @@
         }
     }
 
+
+    @media screen and (min-width: 1400px){
+        
+    }
 </style>

@@ -4,13 +4,21 @@
             <div class="explore-topic">
                 Explore Opportunities <br> In the Global Markets
             </div>
-            <div class="explore-img">
+            <div class="explore-img small">
+                <img src="../assets/Green stroke 1.svg" alt="stroke">
+            </div>
+             <div class="explore-img large">
                 <img src="../assets/Green stroke 1.svg" alt="stroke">
             </div>
         </div>
-            <div class="sub-topic">
-                Join millions of smart Nigerians currently earning extra income from trading.
-            </div>
+        
+        <!-- <div class="explore-img large">
+            <img src="../assets/Green stroke 1.svg" alt="stroke">
+        </div> -->
+
+        <div class="sub-topic">
+            Join millions of smart Nigerians currently earning extra income from trading.
+        </div>
         
         <div class="button-cont">
             <!-- <a href="#"> 
@@ -69,6 +77,10 @@
     }
 
     .mobile {
+        display: none;
+    }
+
+    .large {
         display: none;
     }
 
@@ -140,7 +152,7 @@
         }
 
         .explore-topic {
-            font-size: 8vw;
+            font-size: 6vw;
             text-align: center;
             font-family: 'Proxima Nova';
             line-height: 55px !important;
@@ -159,7 +171,10 @@
         }
 
         .sub-topic {
-            font-size: 20px;
+            font-size: 1.3rem;
+            max-width: 300px;
+            text-align: center;
+            margin: 0 auto;
         }
 
         .section-one-cont {
@@ -167,29 +182,22 @@
             background-repeat: no-repeat;
             background-position-x: right;
             background-size: cover;
-            height: 929px;
+            height: 1394.5px !important;
             color: #fff;
-            position: relative;
-            padding: 60px 44px
+            /* position: relative; */
+            padding: 140px 30px
         }
 
-        .second-ball {
-            top: 65%;
-            left: 25%;
+        .button {
+            padding: 1.6rem 2rem;
         }
 
-        .third-ball {
-            top: 72%;
-            left: 50%;
-        }
-
-        .first-ball {
-            top: 75% ;
-            left: 5%;
+        .button-cont {
+            text-align: center;
         }
     
         .button-cont, .sub-topic {
-            margin-top: 65px;
+            margin-top: 70px;
         }
     }
     
@@ -264,6 +272,41 @@
         .first-ball {
             top: 70% ;
             left: 45%;
+        }
+    }
+
+    @media screen and (min-width: 1400px){
+        .explore-topic {
+            font-family: 'Proxima Nova';
+            font-weight: 900;
+            font-size: 4.5vw;
+            line-height: 75px !important;
+        }
+
+        .explore {
+            max-width: 100%;
+        }
+        .explore-img {
+            align-self: flex-start !important;
+            width: 53%;
+            margin-right: 70px !important;
+        }
+
+        .explore-img {
+            max-width: 850px;
+        }
+
+        .explore-img img {
+            width: 70%;
+            float: right;
+        }
+
+        .large {
+            display: block;
+        }
+
+        .small {
+            display: none;
         }
     }
 </style>

@@ -25,7 +25,7 @@
     }
 
     .contact, .email {
-        font-family: 'Proxina Nova';
+        font-family: 'Proxina Nova !important';
         font-size: 15px;
     }
 
@@ -56,7 +56,7 @@
     }
 
     .number, .mail {
-        font-family: 'Proximal Nova Light';
+        font-family: 'Proximal Nova Light !important';
         font-size: 15px;
         opacity: .9;
     }
