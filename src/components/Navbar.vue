@@ -8,7 +8,7 @@
                         <img src="../assets/mobile/EGM_.png" class="mobile" alt="logo">
                     </li>
                     <li class="spacer"></li>
-                    <li class="line"><span class="contact"> Contact :</span> <span class="number">08035138790</span></li>
+                    <li class="line"><span class="contact"> Contact :</span> <span class="number">0803 513 8790</span></li>
                     <li><span class="email"> Email : </span> <span class="mail">support@eagleglobalmarkets.com</span></li>
                 </ul>
             </nav>
@@ -56,9 +56,9 @@
     }
 
     .number, .mail {
-        font-family: 'Proximal Nova Light !important';
+        font-family: 'Proximal Nova Light'  !important;
         font-size: 15px;
-        opacity: .9;
+        /* opacity: .9; */
     }
 
     @media screen and (max-width: 700px) {

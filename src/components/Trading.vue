@@ -187,6 +187,10 @@
         .wrapper {
             display: block;
         }
+
+        .button {
+            padding: 1.6rem 2rem;
+        }
     }
 
     @media screen and (max-width: 850px) and (min-width: 701px) {
@@ -195,4 +199,15 @@
         }
     }
 
+
+        @media screen and (max-width: 414px) {
+        .button {
+            padding: 1.2rem 1.7rem;
+        }
+
+        .button-cont a {
+            font-family: 'Proxima Nova Light';
+            font-size: 22px;
+        }
+    }
 </style>

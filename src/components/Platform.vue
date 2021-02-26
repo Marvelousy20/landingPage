@@ -77,7 +77,6 @@
         border-radius: 50%;
         margin-top: 10px;
         margin-right: 20px;
-
     }
 
     li {
@@ -243,4 +242,20 @@
             padding-left:13rem;
         }
     }
+
+        @media screen and (max-width: 414px) {
+            .flex {
+                display: flex;
+                align-items: flex-start;
+            }
+
+            .bullet {
+                background: #146CE2;
+                height: 11px;
+                width: 11px;
+                border-radius: 50%;
+                margin-top: 10px;
+                margin-right: 20px;
+            }
+        }
 </style>

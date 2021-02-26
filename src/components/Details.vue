@@ -1,7 +1,12 @@
 <template>
     <div class="container-fluid">
-        <div class="uncover">Uncover a trading experience <br> that’s built just for you.</div>
-
+        <div class="uncover-cont">
+            <div class="uncover desktop d">
+                Uncover a trading experience <br> that’s built just for you.
+            </div>
+        </div>
+        
+        <div class="uncover mobile">Uncover a trading <br> experience that’s built just <br> for you.</div>
         <div class="img-text-cont mt-5">
             <div>
                 <img class="img left" src="../assets/XMLID_806_.svg" alt="">
@@ -9,7 +14,7 @@
             </div>
             
             <div>
-                <img class="desktop" src="../assets/Component 3 – 1.svg" alt="">
+                <img class="desktop a" src="../assets/Component 3 – 1.svg" alt="">
                 <img class="mobile" src="../assets/Component 2 – 2.svg" alt="">
             </div>
 
@@ -19,7 +24,7 @@
             </div>
 
             <div>
-                <img class="desktop" src="../assets/Component 3 – 1.svg" alt="">
+                <img class="desktop a" src="../assets/Component 3 – 1.svg" alt="">
                 <img class="mobile" src="../assets/Component 2 – 2.svg" alt="">
             </div>
 
@@ -37,19 +42,23 @@
         position: relative;
         background-image: url('../assets/Mask Group 5.svg');
         background-color:rgb(1,12,19);
-        padding: 120px 0;
+        padding: 120px 120px;
         font-family: 'Proxima Nova Regular';
     }
 
     .uncover {
-        /* max-width: 800px; */
         font-size: 3.5vw;
         text-align: center;
-        margin: 20px auto;
+        margin: 20px 0;
         /* margin-left: 300px; */
         margin-bottom: 120px;
-        font-family: 'Proxima Nova SemiBold';
+        font-family: 'Proxima Nova SemiBold' !important;
         line-height: 63px;
+    }
+
+    .d {
+        margin-left: 90px;
+        /* transform: translateX(4%); */
     }
 
     .img-text-cont {
@@ -57,7 +66,6 @@
         text-align: center;
         /* max-width: 1215px; */
         justify-content: space-between;
-        padding: 0 50px;
         margin: 0 auto;
     }
 
@@ -69,10 +77,6 @@
 
     .mobile {
         display: none;
-    }
-
-    .desktop, .central {
-        margin-left: -60px;
     }
 
     .img {
@@ -95,8 +99,9 @@
         }
 
         .uncover {
-            max-width: 256px;
             font-size: 26px;
+            margin-bottom: 66px;
+            line-height: 40px;
         }
 
         .img-text-cont div>div {
@@ -113,6 +118,10 @@
 
         .no-display {
             display: block;
+        }
+
+         .desktop, .central {
+            margin-left: 0px;
         }
     }
 
@@ -148,6 +157,12 @@
         }
     }
 
+
+     @media screen and (min-width: 1600px) {
+        .uncover {
+            font-family: 'Proxima Nova SemiBold' !important;
+        }
+    }
 
     @media screen and (min-width: 1400px){
         

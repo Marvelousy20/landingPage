@@ -16,8 +16,12 @@
             <img src="../assets/Green stroke 1.svg" alt="stroke">
         </div> -->
 
-        <div class="sub-topic">
+        <div class="sub-topic desktop">
             Join millions of smart Nigerians currently earning extra income from trading.
+        </div>
+
+        <div class="sub-topic mobile">
+            Join millions of smart Nigerians <br> currently earning extra income <br> from trading.
         </div>
         
         <div class="button-cont">
@@ -100,7 +104,6 @@
 
     .explore-topic {
         font-family: 'Proxima Nova';
-        font-weight: 900;
         font-size: 4.5vw;
         line-height: 75px !important;
     }
@@ -152,18 +155,20 @@
         }
 
         .explore-topic {
-            font-size: 6vw;
+            font-size: 7vw;
             text-align: center;
             font-family: 'Proxima Nova';
-            line-height: 55px !important;
+            line-height: 40px !important;
         }
 
         .explore-img {
-            width: 60%; 
+            align-self: flex-end !important;
+            max-width: 400px; 
         }
 
         .explore-img img {
-            width: 100%;
+            width: 80%;
+            float: right;
         }
 
         .mobile {
@@ -171,8 +176,8 @@
         }
 
         .sub-topic {
-            font-size: 1.3rem;
-            max-width: 300px;
+            font-size: 1.7rem;
+            /* max-width: 300px; */
             text-align: center;
             margin: 0 auto;
         }
@@ -185,7 +190,7 @@
             height: 1394.5px !important;
             color: #fff;
             /* position: relative; */
-            padding: 140px 30px
+            padding: 165px 30px
         }
 
         .button {
@@ -278,7 +283,6 @@
     @media screen and (min-width: 1400px){
         .explore-topic {
             font-family: 'Proxima Nova';
-            font-weight: 900;
             font-size: 4.5vw;
             line-height: 75px !important;
         }
@@ -288,8 +292,8 @@
         }
         .explore-img {
             align-self: flex-start !important;
-            width: 53%;
-            margin-right: 70px !important;
+            width: 50%;
+            margin-right: 65px !important;
         }
 
         .explore-img {
@@ -307,6 +311,54 @@
 
         .small {
             display: none;
+        }
+    }
+
+    @media screen and (min-width: 1500px) {
+        .explore-topic {
+            font-family: 'Proxima Nova';
+            line-height: 90px !important;
+        }
+    }
+
+    @media screen and (max-width: 414px) {
+        .section-one-cont {
+            background: url('../assets/MH.png');
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: cover;
+            padding: 105px 30px;
+            height: 200vh !important;
+        }
+
+        .sub-topic {
+            font-size: 1.2rem;
+            max-width: 300px;
+            line-height: 30px;
+            text-align: center;
+            margin: 50px auto;
+        }
+
+        .button {
+            padding: 1.2rem 1.7rem;
+        }
+
+        .explore-img {
+            align-self: flex-end !important;
+            max-width: 500px; 
+            position: absolute;
+            top: 250px;
+            left: 80px;
+        }
+
+        .explore-img img {
+            width: 75%;
+            float: right;
+        }
+
+        .button-cont a {
+            font-family: 'Proxima Nova Light';
+            font-size: 22px;
         }
     }
 </style>
