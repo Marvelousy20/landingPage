@@ -166,11 +166,11 @@
         }
     }
 
-    @media screen and (min-width: 1400px){
-        
-    }
-
-    @media screen and (max-width: 500px) {
-        
+    @media screen and (max-width: 390px) {
+        .img-text-cont {
+       
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
     }
 </style>

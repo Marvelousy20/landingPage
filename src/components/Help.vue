@@ -172,4 +172,10 @@
            margin-top: 30px !important;
        }
     }
+
+    @media screen and (max-width: 420px) {
+       span a {
+           font-size: 15px;
+       }
+    }
 </style>
