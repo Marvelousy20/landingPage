@@ -6,7 +6,7 @@
             </div>
         </div>
         
-        <div class="uncover mobile">Uncover a trading <br> experience that’s built just <br> for you.</div>
+        <div class="uncover mobile uncover-mobile">Uncover a trading <br> experience that’s built just <br> for you.</div>
         <div class="img-text-cont mt-5">
             <div>
                 <img class="img left" src="../assets/XMLID_806_.svg" alt="">
@@ -42,7 +42,7 @@
         position: relative;
         background-image: url('../assets/Mask Group 5.svg');
         background-color:rgb(1,12,19);
-        padding: 120px 120px;
+        padding: 120px 0;
         font-family: 'Proxima Nova Regular';
     }
 
@@ -65,6 +65,8 @@
         display: flex;
         text-align: center;
         /* max-width: 1215px; */
+        margin-left: 100px !important;
+        margin-right: 100px !important;
         justify-content: space-between;
         margin: 0 auto;
     }
@@ -165,6 +167,10 @@
     }
 
     @media screen and (min-width: 1400px){
+        
+    }
+
+    @media screen and (max-width: 500px) {
         
     }
 </style>

@@ -43,6 +43,7 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: space-between !important;
         padding: 0 100px;
     }
 
