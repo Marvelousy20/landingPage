@@ -72,7 +72,7 @@
 
 <style scoped>
     .trade-cont {
-        background: url('../assets/Mask Group 5.svg');
+        background-image: url('../assets/Mask Group 5.svg');
         font-family: 'Proxima Nova Light';
     }
 
@@ -200,7 +200,7 @@
     }
 
 
-        @media screen and (max-width: 414px) {
+        @media screen and (max-width: 420px) {
         .button {
             padding: 1.2rem 1.7rem;
         }
@@ -208,6 +208,10 @@
         .button-cont a {
             font-family: 'Proxima Nova Light';
             font-size: 22px;
+        }
+
+        .wrapper p {
+            font-size: 18px !important;
         }
     }
 </style>

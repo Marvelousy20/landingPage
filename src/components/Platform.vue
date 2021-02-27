@@ -17,7 +17,7 @@
                     <div class="flex">
                         <p></p>
                         <li>
-                            <div class="bullet"></div>
+                            <div class="a bullet"></div>
                             <div>
                                 <b>Cloudtrade: </b> <span>Trade the Global Markets <br> on a Simplified Platform
                                 Using Naira.</span> 
@@ -27,7 +27,7 @@
                     <div class="flex">
                         <p class="p"></p>
                         <li>
-                            <div class="bullet"></div>
+                            <div class="a bullet"></div>
                             <div>
                                 <b>Copytrade: </b> <span>Make the same moves as <br> professionals, make money they do.</span>
                             </div>
@@ -185,8 +185,8 @@
 
         .svg {
             background: #146CE2;
-            height: 87px;
-            margin-top: 0px;
+            height: 140px;
+            margin-top: -30px;
             width: 100%;
         }
     }
@@ -251,11 +251,16 @@
 
             .bullet {
                 background: #146CE2;
-                height: 11px;
-                width: 11px;
                 border-radius: 50%;
+                height: 11px;
+                width: 11.74px;
                 margin-top: 10px;
                 margin-right: 20px;
+            }
+
+            .a {
+                height: 11px !important;
+                width: 13.8px !important;
             }
         }
 </style>

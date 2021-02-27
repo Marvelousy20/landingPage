@@ -178,4 +178,29 @@
            font-size: 15px;
        }
     }
+
+    @media screen and (max-width: 320px) {
+        .flex p {
+            display: none;
+        }
+
+        ul {
+            /* list-style: disc; */
+            list-style: none;
+            /* margin-left: 10px; */
+            line-height: 3px;
+        }
+
+        li:before {
+            content: '.';
+            color: #146CE2;
+            font-size: 50px;
+            margin-top: 10px !important;
+            margin-right: 10px;
+        }
+
+        span, span a {
+            font-size: 12px;
+        }
+    }
 </style>
