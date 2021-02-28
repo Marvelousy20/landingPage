@@ -72,7 +72,7 @@
 
 <style scoped>
     .trade-cont {
-        background-image: url('../assets/Mask Group 5.svg');
+        /* background-image: url('../assets/Mask Group 5.svg'); */
         font-family: 'Proxima Nova Light';
     }
 

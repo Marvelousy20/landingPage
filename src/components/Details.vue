@@ -39,8 +39,7 @@
 <style scoped>
     .container-fluid {
         color: #fff;
-        position: relative;
-        background-image: url('../assets/Mask Group 5.svg');
+        /* background-image: url('../assets/Mask Group 5.svg'); */
         background-color:rgb(1,12,19);
         padding: 120px 0;
         font-family: 'Proxima Nova Regular';
@@ -50,7 +49,6 @@
         font-size: 3.5vw;
         text-align: center;
         margin: 20px 0;
-        /* margin-left: 300px; */
         margin-bottom: 120px;
         font-family: 'Proxima Nova SemiBold' !important;
         line-height: 63px;
@@ -58,13 +56,11 @@
 
     .d {
         margin-left: 90px;
-        /* transform: translateX(4%); */
     }
 
     .img-text-cont {
         display: flex;
         text-align: center;
-        /* max-width: 1215px; */
         margin-left: 100px !important;
         margin-right: 100px !important;
         justify-content: space-between;

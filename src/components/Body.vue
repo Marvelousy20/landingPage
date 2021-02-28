@@ -19,12 +19,6 @@
         <div class="button-cont">
             <a href="#" class="btn-primary button">Open an account</a>
         </div>
-        
-        <div class="balls mobile phone">
-            <div class="first-ball"><img src="../assets/Oil mobile.svg" alt="oil.png"></div>
-            <div class="second-ball"><img src="../assets/Gold mobile.svg" alt="gold.png"></div>
-            <div class="third-ball"><img src="../assets/EUR-USD mobile.svg" alt="euro.png"></div>
-        </div>
     </section>
 </template>
 
@@ -41,7 +35,6 @@
     }
 
     .section-one-cont {
-        /* background: url('../assets/Component 7 – 1.png'); */
         background: url('../assets/hero.png');
         background-repeat: no-repeat;
         background-position-x: right;
@@ -129,7 +122,7 @@
         }
 
         .section-one-cont {
-            background: url('../assets/mobile/herob.png');
+            background: url('../assets/mobile/heroa.png');
             background-repeat: no-repeat;
             background-position-x: right;
             background-size: cover;
@@ -157,8 +150,8 @@
 
     @media screen and (max-width: 700px) and (min-width: 500px) {
         .section-one-cont {
-            background: url('../assets/medium.png');
-            /* background: url('../assets/mobile/new.png'); */
+            background: url('../assets/mobile/heroa.png');
+            /* background-position: center; */
             background-size: cover;
             color: #fff;
         }
@@ -166,10 +159,6 @@
         .explore-topic {
             line-height: 3.5rem !important;
         }
-
-        /* .explore {
-            margin-top: 8rem;
-        } */
 
         .button {
             padding: 1.3rem 1.8rem;
@@ -185,36 +174,28 @@
             background: url('../assets/MH.png');
             background-repeat: no-repeat;
             background-size: cover;
+            height: 1200px;
             background-position-y: bottom;
+            /* padding: 3.5em 6.25em; */
         }
 
-        .second-ball {
-            top: 55%;
-            left: 55%;
-        }
-
-        .third-ball {
-            top: 64%;
-            left: 70%;
-        }
-
-        .first-ball {
-            top: 70% ;
-            left: 45%;
+        .explore-topic {
+            line-height: 65px !important;
         }
     }
 
-    @media screen and (max-width: 850px) and (min-width: 700px) {
-        /* .section-one-cont {
-            background: url('../assets/mobile/herob.png');
+    @media screen and (max-width: 850px) and (min-width: 701px) {
+        .section-one-cont {
+            /* background: url('../assets/mobile/heroa.png'); */
+            background: url('../assets/mobile/new.png');
             background-repeat: no-repeat;
             background-size: cover;
-            background-position-y: bottom;
-            height: 1500px;
-            padding-top: 50px !important;
-        } */
+            background-position: right;
+            height: 1350px; 
+            color: #fff;
+        }
 
-        /* .explore-topic {
+        .explore-topic {
             line-height: 55px !important;
             font-size: 50px !important;
             text-align: center;
@@ -238,7 +219,7 @@
 
         .balls {
             display: none;
-        } */
+        }
     }
 
     @media screen and (min-width: 1400px){
@@ -268,64 +249,6 @@
         }
     }
 
-    @media screen and (max-width: 700px) {
-        /* .section-one-cont {
-            background: url('../assets/MH.png');
-            background: url('../assets/mobile/herob.png');
-            background-repeat: no-repeat;
-            background-position: right;
-            background-size: cover;
-            padding: 25px 30px;
-            height: 1000px !important;
-            line-height: 45px !important;
-        } */
-
-        /* .sub-topic {
-            font-size: 21px;
-            max-width: 300px;
-            line-height: 30px !important;
-            text-align: center;
-            margin: 65px auto;
-        } */
-
-        /* .explore-topic {
-            line-height: 40px !important;
-        } */
-
-        /* .button {
-            padding: 1.2rem 1.7rem;
-        }
-
-        .button-cont a {
-            font-family: 'Proxima Nova Light';
-            font-size: 22px;
-        } */
-
-        .first-ball {
-            position: absolute;
-            top: 120%;
-            bottom: 0;
-            left: 30%;
-            right: 0;
-        }
-
-        .second-ball {
-            position: absolute;
-            top: 210px;
-            bottom: 0;
-            left: 180px;
-            right: 0;
-        }
-
-        .third-ball {
-            position: absolute;
-            top: 54%;
-            bottom: 0;
-            left: 67%;
-            right: 0;
-        }
-    }
-
     @media screen and (max-width: 650px) {
         .global img {
             position: absolute;
@@ -345,11 +268,16 @@
             height: 1000px !important;
             line-height: 45px !important;
         }
+
         .global img {
             position: absolute;
             top: 2.3rem;
             left: 0;
             width: 100%;
+        }
+
+        .button-cont a {
+            font-size: 17px;
         }
     }
 </style>
