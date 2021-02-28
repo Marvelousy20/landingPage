@@ -169,4 +169,9 @@
         }
     }
     
+    @media screen and (max-width: 800px) {
+        .container-fluid {
+            background-image: none;
+        }
+    }
 </style>

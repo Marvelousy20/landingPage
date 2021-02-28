@@ -9,27 +9,37 @@
                         <p></p>
                         <li>
                             <div class="bullet"></div>
-                            <div>
+                            <div class="desktop-b">
                                 <b>MT4 Platform: </b> <span>Trade the global <br> markets using USD.</span> 
+                            </div>
+                            <div class="mobile-b">
+                                <b>MT4 Platform: </b> <span>Trade the global markets using USD.</span> 
                             </div>
                         </li>
                     </div>
-                    <div class="flex">
+                    <div class="flex mt-2">
                         <p></p>
                         <li>
                             <div class="a bullet"></div>
-                            <div>
+                            <div class="desktop-b">
                                 <b>Cloudtrade: </b> <span>Trade the Global Markets <br> on a Simplified Platform
+                                Using Naira.</span> 
+                            </div>
+                            <div class="mobile-b">
+                                <b>Cloudtrade: </b> <span>Trade the Global Markets on a Simplified Platform
                                 Using Naira.</span> 
                             </div>
                         </li>
                     </div>
-                    <div class="flex">
+                    <div class="flex mt-2">
                         <p class="p"></p>
                         <li>
                             <div class="a bullet"></div>
-                            <div>
+                            <div class="desktop-b">
                                 <b>Copytrade: </b> <span>Make the same moves as <br> professionals, make money they do.</span>
+                            </div>
+                            <div class="mobile-b">
+                                <b>Copytrade: </b> <span>Make the same moves as professionals, make money they do.</span>
                             </div>
                         </li>
                     </div>
@@ -51,6 +61,19 @@
 
 <style scoped>
 
+    /* .desktop-b {
+        display: list-item;                                                 
+        list-style-type: disc;       
+        list-style-position: inside;
+        font-size: 24px;
+    } */
+
+    .mobile-b {
+        display: list-item;                                                 
+        list-style-type: disc;       
+        list-style-position: inside;
+    }
+    
     .svg {
         background: #146CE2;
         height: 240px;
@@ -71,12 +94,15 @@
     }
 
     .bullet {
-        background: #146CE2;
-        height: 11px;
-        width: 11px;
-        border-radius: 50%;
-        margin-top: 10px;
-        margin-right: 20px;
+        display: list-item;                                                 
+        list-style-type: disc;       
+        list-style-position: inside;
+        font-size: 24px;
+        margin-top: -3px;
+    }
+
+    .mobile-b {
+        display: none;
     }
 
     li {
@@ -139,7 +165,7 @@
 
     b, span {
         color: black !important;
-        font-size: 21px;
+        font-size: 21px !important;
     }
 
     b {
@@ -243,24 +269,20 @@
         }
     }
 
-        @media screen and (max-width: 414px) {
-            .flex {
-                display: flex;
-                align-items: flex-start;
-            }
-
-            .bullet {
-                background: #146CE2;
-                border-radius: 50%;
-                height: 11px;
-                width: 11.74px;
-                margin-top: 10px;
-                margin-right: 20px;
-            }
-
-            .a {
-                height: 11px !important;
-                width: 13.8px !important;
-            }
+    @media screen and (max-width: 414px) {
+        .flex {
+            display: flex;
+            align-items: flex-start;
         }
+    }
+
+    @media screen and (max-width: 440px) {
+         .desktop-b {
+            display: none;
+        }
+
+        .mobile-b {
+            display: block;
+        }
+    }
 </style>

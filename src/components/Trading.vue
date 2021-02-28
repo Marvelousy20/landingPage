@@ -80,7 +80,7 @@
         font-size: 50px;
         text-align: center;
         margin-bottom: 40px;
-        margin-top: 100px;
+        padding-top: 100px;
         max-width: 100vw;
         /* margin: 80px 0; */
         font-family: 'Proxima Nova SemiBold';
@@ -200,7 +200,7 @@
     }
 
 
-        @media screen and (max-width: 420px) {
+    @media screen and (max-width: 420px) {
         .button {
             padding: 1.2rem 1.7rem;
         }
@@ -211,7 +211,13 @@
         }
 
         .wrapper p {
-            font-size: 18px !important;
+            font-size: 17.5px !important;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .trade-cont {
+            background-image: none;
         }
     }
 </style>

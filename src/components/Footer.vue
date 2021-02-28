@@ -5,7 +5,7 @@
         You could lose more than your deposits.You do not own, or have any interest in, 
         the underlying assets. We recommend that you seek independent advice and ensure you 
         fully understand the risks involved before trading. Spreads may widen depending on 
-        liquidity and market volatility. <br> The information on this website is prepared without 
+        liquidity and market volatility. <br> <br class="mobile"> The information on this website is prepared without 
         considering your objectives, financial situation or needs. Consequently, you should 
         consider the information in light of your objectives, financial situation and needs.</span> 
         <br> 
@@ -52,8 +52,6 @@
         margin-top: -5px;
     }
 
-
-
     .hr {
         margin: 100px 0;
     }
@@ -75,9 +73,8 @@
     }
 
     .web a{
-        /* font-family: 'Proxima Nova Light';
-        font-size: 15px; */
-
+        font-family: 'Proxima Nova Light';
+        /* font-size: 15px; */
         color: #fff;
         opacity: .8;
         margin-right: 25px;
@@ -100,8 +97,10 @@
 
     @media screen and (max-width: 700px) {
         .container-fluid {
-            padding: 6rem 2rem;
+            padding: 91px 2rem;
+            padding-bottom: 3rem !important;
         }
+
         .web {
             display: none;
         }
@@ -113,12 +112,16 @@
         .mobile {
             display: block;
         }
+
+        .hr {
+            margin: 80px 0;
+        }
     }
 
     @media screen and (max-width: 500px) {
         span {
             font-family: 'Proxima Nova Light';
-            font-size: 18px;
+            font-size: 18px !important;
             opacity: .8;
         }
     }
