@@ -39,7 +39,7 @@
 <style scoped>
     .container-fluid {
         color: #fff;
-        /* background-image: url('../assets/Mask Group 5.svg'); */
+        background-image: url('../assets/MaskGroup5.svg');
         background-color:rgb(1,12,19);
         padding: 120px 0;
         font-family: 'Proxima Nova Regular';
