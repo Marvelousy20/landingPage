@@ -114,4 +114,12 @@
             display: block;
         }
     }
+
+    @media screen and (max-width: 500px) {
+        span {
+            font-family: 'Proxima Nova Light';
+            font-size: 18px;
+            opacity: .8;
+        }
+    }
 </style>

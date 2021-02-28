@@ -158,6 +158,7 @@
     @media screen and (max-width: 700px) and (min-width: 500px) {
         .section-one-cont {
             background: url('../assets/medium.png');
+            /* background: url('../assets/mobile/new.png'); */
             background-size: cover;
             color: #fff;
         }
@@ -166,9 +167,9 @@
             line-height: 3.5rem !important;
         }
 
-        .explore {
-            /* margin-top: 8rem; */
-        }
+        /* .explore {
+            margin-top: 8rem;
+        } */
 
         .button {
             padding: 1.3rem 1.8rem;
@@ -268,16 +269,16 @@
     }
 
     @media screen and (max-width: 700px) {
-        .section-one-cont {
-            /* background: url('../assets/MH.png'); */
-            /* background: url('../assets/mobile/herob.png');
+        /* .section-one-cont {
+            background: url('../assets/MH.png');
+            background: url('../assets/mobile/herob.png');
             background-repeat: no-repeat;
             background-position: right;
             background-size: cover;
             padding: 25px 30px;
-            height: 1000px !important; */
-            /* line-height: 45px !important; */
-        }
+            height: 1000px !important;
+            line-height: 45px !important;
+        } */
 
         /* .sub-topic {
             font-size: 21px;
@@ -287,9 +288,9 @@
             margin: 65px auto;
         } */
 
-        .explore-topic {
-            /* line-height: 40px !important; */
-        }
+        /* .explore-topic {
+            line-height: 40px !important;
+        } */
 
         /* .button {
             padding: 1.2rem 1.7rem;
@@ -335,6 +336,15 @@
     }
 
      @media screen and (max-width: 450px) {
+        .section-one-cont {
+            background: url('../assets/mobile/new.png');
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: cover;
+            padding: 25px 30px;
+            height: 1000px !important;
+            line-height: 45px !important;
+        }
         .global img {
             position: absolute;
             top: 2.3rem;
