@@ -24,8 +24,8 @@
     }
 
     .logo {
-        height: 60px;
-        width: 120px;
+        height: 70px;
+        width: 140px;
     }
 
     header {
@@ -70,7 +70,7 @@
     .number, .mail {
         font-family: 'Proximal Nova Light' !important;
         font-size: 15px;
-        /* opacity: .9; */
+        opacity: .9;
     }
 
     @media screen and (max-width: 700px) {
@@ -99,6 +99,21 @@
 
         .line {
             display: none;
+        }
+
+        .logo {
+            height: 50px;
+            width: 100px;
+        }
+
+        .number, .mail {
+            font-family: 'Proximal Nova Light' !important;
+            font-size: 12px;
+            opacity: .9;
+        }
+
+        .email {
+            font-size: 12px;
         }
     }
 
