@@ -5,7 +5,7 @@
                 <ul>
                     <li>
                         <img src="../assets/logo.png" class="desktop logo" alt="logo">
-                        <img src="../assets/mobile/EGM_.png" class="mobile" alt="logo">
+                        <img src="../assets/mobile/EGM_.jpg" class="mobile" alt="logo">
                     </li>
                     <li class="spacer"></li>
                     <li class="line"><span class="contact"> Contact :</span> <span class="number">0803 513 8790</span></li>
@@ -18,7 +18,7 @@
 
 <style scoped>
     header {
-        height: 168px;
+        height: 100px;
         background: #010C13;
         color: #fff;
         font-family: 'Proxima Nova Light';
@@ -72,6 +72,9 @@
         }
         .mobile {
             display: block;
+            height: 36px;
+            width: 75px;
+            object-fit: cover;
         }
 
         ul {
