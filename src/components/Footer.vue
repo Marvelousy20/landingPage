@@ -128,4 +128,12 @@
             opacity: .8;
         }
     }
+
+    @media screen and (max-width: 350px) {
+        span {
+            font-family: 'Proxima Nova Light';
+            font-size: 16px !important;
+            opacity: .8;
+        }
+    }
 </style>

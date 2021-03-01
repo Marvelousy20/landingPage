@@ -195,7 +195,7 @@
     }
 
     @media screen and (max-width: 420px) {
-       span a {
+        span a {
            font-size: 15px;
         }
     }
@@ -226,8 +226,12 @@
     }
 
     @media screen and (max-width: 380px) {
-        span {
-            font-size: 16px !important;
+        span a {
+           font-size: 13.5px;
+        }
+
+        .span {
+            font-size: 14px;
         }
     }
 </style>

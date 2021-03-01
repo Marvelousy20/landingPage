@@ -123,7 +123,8 @@
         }
 
         .section-one-cont {
-            background: url('../assets/mobile/heroa.png');
+            /* background: url('../assets/mobile/heroa.png'); */
+            background: url('../assets/mobile/he.png');
             background-repeat: no-repeat;
             background-position-x: right;
             background-size: cover;
