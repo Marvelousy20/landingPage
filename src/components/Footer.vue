@@ -1,13 +1,13 @@
 <template>
     <div class="container-fluid">
         <span class="bold">Risk warning:</span> <span>Investing in Eagle Global Markets derivative products 
-        carries significant risks and is not suitable for all investors. <br> 
-        You could lose more than your deposits.You do not own, or have any interest in, 
+        carries significant risks and is not suitable for all investors. <br class="desktop"> 
+        You could lose more than your deposits. You do not own, or have any interest in, 
         the underlying assets. We recommend that you seek independent advice and ensure you 
         fully understand the risks involved before trading. Spreads may widen depending on 
         liquidity and market volatility. <br> <br class="mobile"> The information on this website is prepared without 
         considering your objectives, financial situation or needs. Consequently, you should 
-        consider the information in light of your objectives, financial situation and needs.</span> 
+        consider the information in light of your objectives, financial situation and needs.</span>
         <br> 
         <br>
         <br>
@@ -74,7 +74,6 @@
 
     .web a{
         font-family: 'Proxima Nova Light';
-        /* font-size: 15px; */
         color: #fff;
         opacity: .8;
         margin-right: 25px;
@@ -95,9 +94,13 @@
         display: none;
     }
 
+    .web a:hover {
+        color: #146CE2;
+    }
+
     @media screen and (max-width: 700px) {
         .container-fluid {
-            padding: 91px 2rem;
+            padding: 90px 2rem !important;
             padding-bottom: 3rem !important;
         }
 
@@ -114,7 +117,7 @@
         }
 
         .hr {
-            margin: 80px 0;
+            margin: 60px 0;
         }
     }
 

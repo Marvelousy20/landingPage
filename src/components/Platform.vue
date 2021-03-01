@@ -61,13 +61,6 @@
 
 <style scoped>
 
-    /* .desktop-b {
-        display: list-item;                                                 
-        list-style-type: disc;       
-        list-style-position: inside;
-        font-size: 24px;
-    } */
-
     .mobile-b {
         display: list-item;                                                 
         list-style-type: disc;       
@@ -159,7 +152,7 @@
     }
 
     li {
-        color: blue;
+        color: #146CE2;
         margin-top: 20px;
     }
 
@@ -181,6 +174,13 @@
             font-size: 28px;
             text-align: center;
             font-weight: 500;
+        }
+
+        .cont {
+            margin-top: 140px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
         }
 
         .img-cont {

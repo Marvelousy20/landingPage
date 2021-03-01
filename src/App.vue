@@ -42,21 +42,21 @@ export default {
 
   @font-face {
     font-family:  'Proxima Nova';
-    src: local('Proxima Nova'), url('./Fonts/Proxima Nova/ProximaNova-Bold.otf');
+    src: local('Proxima Nova'), url('./Fonts/ProximaNova/ProximaNova-Bold.otf');
   }
 
   @font-face {
     font-family:  'Proxima Nova Light';
-    src: local('Proxima Nova Light'), url('./Fonts/Proxima Nova/ProximaNova-Light.otf');
+    src: local('Proxima Nova Light'), url('./Fonts/ProximaNova/ProximaNova-Light.otf');
   }
 
   @font-face {
     font-family:  'Proxima Nova Regular';
-    src: local('Proxima Nova Regular'), url('./Fonts/Proxima Nova/ProximaNova-Regular.otf');
+    src: local('Proxima Nova Regular'), url('./Fonts/ProximaNova/ProximaNova-Regular.otf');
   }
 
    @font-face {
     font-family:  'Proxima Nova SemiBold';
-    src: local('Proxima Nova SemiBold'), url('./Fonts/Proxima Nova/ProximaNova-Semibold.otf');
+    src: local('Proxima Nova SemiBold'), url('./Fonts/ProximaNova/ProximaNova-Semibold.otf');
   }
 </style>

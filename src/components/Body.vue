@@ -43,6 +43,7 @@
         color: #fff;
         position: relative;
         padding: 6.25em;
+        padding-top: 5em;
     }
 
     .button {
@@ -224,7 +225,7 @@
 
     @media screen and (min-width: 1400px){
         .explore-topic {
-            font-family: 'Proxima Nova';
+            font-family: 'Proxima Nova' !important;
             font-size: 4.5vw;
             line-height: 75px !important;
         }
@@ -244,7 +245,7 @@
 
     @media screen and (min-width: 1500px) {
         .explore-topic {
-            font-family: 'Proxima Nova';
+            font-family: 'Proxima Nova' !important;
             line-height: 90px !important;
         }
     }
@@ -264,9 +265,26 @@
             background-repeat: no-repeat;
             background-position: right;
             background-size: cover;
-            padding: 25px 30px;
-            height: 1000px !important;
+            padding: 5px 30px;
+            height: 910px !important;
             line-height: 45px !important;
+        }
+
+        .sub-topic {
+            margin-top: 50px;
+            /* line-height: 44px; */
+        }
+
+        .button-cont, .sub-topic {
+            margin-top: 50px;
+        }
+
+        .button {
+            padding: 1.3rem 2.7rem;
+            background: #146CE2;
+            border-radius: 12px;
+            outline: none;
+            border: none;
         }
 
         .global img {

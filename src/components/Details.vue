@@ -6,30 +6,34 @@
             </div>
         </div>
         
-        <div class="uncover mobile uncover-mobile">Uncover a trading <br> experience that’s built just <br> for you.</div>
+        <div class="uncover mobile uncover-mobile">Uncover a trading <br> experience that’s built <br> just for you.</div>
+        
         <div class="img-text-cont mt-5">
             <div>
-                <img class="img left" src="../assets/XMLID_806_.svg" alt="">
+                <img class="img left desktop" src="../assets/XMLID_806_.svg" alt="">
+                <img class="img mobile" src="../assets/mobile/XMLID_806_.png" alt="">
                 <div class="text mt-3">Fast trade execution <br> &lt; 12.00 ms</div>
             </div>
             
-            <div>
+            <div class="line">
                 <img class="desktop a" src="../assets/Component 3 – 1.svg" alt="">
                 <img class="mobile" src="../assets/Component 2 – 2.svg" alt="">
             </div>
 
             <div class="central">
-                <img class="img" src="../assets/stock-market (2).svg" alt="">
+                <img class="img desktop" src="../assets/stock-market (2).svg" alt="">
+                <img class="img mobile" src="../assets/mobile/stock-market (2).png" alt="">
                 <div class="text mt-3">1000+ Assets to trade <br> on 3 unique platforms</div>
             </div>
 
-            <div>
+            <div class="line">
                 <img class="desktop a" src="../assets/Component 3 – 1.svg" alt="">
                 <img class="mobile" src="../assets/Component 2 – 2.svg" alt="">
             </div>
 
             <div>
-                <img class="img" src="../assets/wallet.svg" alt="">
+                <img class="img desktop" src="../assets/wallet.svg" alt="">
+                <img class="img mobile" src="../assets/mobile/wallet.png" alt="">
                 <div class="text mt-3">100% safety <br> guaranteed</div>
             </div>
         </div>
@@ -58,6 +62,10 @@
         margin-left: 90px;
     }
 
+    .mobile {
+        display: none;
+    }
+
     .img-text-cont {
         display: flex;
         text-align: center;
@@ -73,17 +81,27 @@
         font-weight: 400px;
     }
 
-    .mobile {
-        display: none;
-    }
-
     .img {
         margin-bottom: 25px;
     }
 
     @media screen and (max-width: 700px) {
+        .container-fluid {
+            padding-top: 80px;
+        }
+
         .desktop {
             display: none;
+        }
+
+        .mobile {
+            display: block;
+        }
+
+        .img {
+            text-align: center !important;
+            margin: 0 auto;
+            margin-bottom: 26px;
         }
 
         .img-text-cont {
@@ -93,33 +111,22 @@
         }
 
         .img-text-cont div {
-            margin-top: 50px;
+            margin: 25px 0;
         }
 
         .uncover {
             font-size: 26px;
-            margin-bottom: 66px;
+            margin-bottom: 46px;
             line-height: 40px;
         }
 
         .img-text-cont div>div {
             font-size: 19px;
-        }
-
-        .mobile {
-            display: block !important;
+            font-family: 'Proxima Nova Regular' !important;
         }
 
         .text {
             max-width: 200px !important;
-        }
-
-        .no-display {
-            display: block;
-        }
-
-         .desktop, .central {
-            margin-left: 0px;
         }
     }
 

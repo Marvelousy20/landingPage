@@ -15,7 +15,7 @@
             <div class="wrapper">
                 <a href="#">
                     <div>
-                        <p class="a">Send in your proof <br> of Identification</p>
+                        <p class="a">Send in your proof <br class="desktop"> of Identification</p>
                     </div>
                     <p>Submit your passport, National ID, Driver’s License, or other forms of Identification to verify your account.</p>
                 </a>
@@ -24,7 +24,7 @@
             <div class="wrapper">
                 <a href="#">
                     <div>
-                        <p class="a">Choose the platform <br> of your choice</p>
+                        <p class="a">Choose the platform <br class="desktop"> of your choice</p>
                     </div>
                     <p>Our MT4, Cloudtrade & Copytrading Platforms are designed to make your trading experience better.</p>    
                 </a>
@@ -33,7 +33,7 @@
             <div class="wrapper">
                 <a href="#">
                     <div>
-                        <p class="a">Fund your account <br> & start trading</p>
+                        <p class="a">Fund your account <br class="desktop"> & start trading</p>
                     </div>
                     <p>Use our range of payment options to start investing to deposit funds to your account.</p>
                 </a>
@@ -53,7 +53,7 @@
             <div class="wrapper">
                 <a href="#">
                     <div>
-                        <p class="a">Speak to our <br> In-house analyst</p>
+                        <p class="a">Speak to our <br class="desktop"> In-house analyst</p>
                     </div>
                     <p>Get 24/7 personal support from the experts on WhatsApp.</p>
                 </a>
@@ -134,7 +134,7 @@
     .wrapper div {
         font-size: 24px;
         max-width: 250px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .wrapper a>p {
@@ -179,17 +179,52 @@
             font-size: 28px;
         }
 
+        .desktop {
+            display: none;
+        }
+
         .wrapper-cont {
-            padding: 0;
             justify-content: center;
+        }
+
+        .wrapper p {
+            max-width: 100%;
+            font-size: 19px;
         }
 
         .wrapper {
             display: block;
         }
 
+        .wrapper div {
+            font-size: 24px;
+            max-width: 100%;
+        }
+        
         .button {
-            padding: 1.6rem 2rem;
+            padding: 1.3rem 1.8rem;
+        }
+
+        .button-cont a {
+            font-size: 19px;
+        }
+        
+        .wrapper {
+            border: 1px solid #104EA1;
+            border-radius: 10px;
+            margin: 0 0;
+            padding: 25px 25px;
+            margin: 25px 25px;
+            height: 100%;
+            width: 100%;
+        }
+
+        .button-cont a {
+            font-size: 19px;
+        }
+
+        .wrapper p {
+            font-size: 17.5px !important;
         }
     }
 
@@ -202,12 +237,11 @@
 
     @media screen and (max-width: 420px) {
         .button {
-            padding: 1.2rem 1.7rem;
+            padding: 1.3rem 1.8rem;
         }
 
         .button-cont a {
-            font-family: 'Proxima Nova Light';
-            font-size: 22px;
+            font-size: 19px;
         }
 
         .wrapper p {

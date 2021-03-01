@@ -13,15 +13,20 @@
 
                 <ul>
                     <div class="flex e mt-5">
-                        <p></p><li>
+                        <p></p>
+                        <li>
                             <span>
                                 <a href="#"><span class="span">Email:</span> support@eagleglobalmarkets.com</a>
-                            </span></li>
+                            </span>
+                        </li>
                     </div>
-                    <div class="flex mt-4">
-                        <p></p><li><span>
-                            <a href="#"><span class="span">WhatsApp:</span> 090 829 08871</a>
-                        </span></li>
+                    <div class="flex mt-4 whatsapp">
+                        <p></p>
+                        <li>
+                            <span>
+                                <a href="#"><span class="span">WhatsApp:</span> 090 829 08871</a>
+                            </span>
+                        </li>
                     </div>
                 </ul>
             </div>
@@ -84,7 +89,7 @@
     .cont {
         display: flex;
         flex-wrap: wrap;
-        text-align: center !important;
+        text-align: left !important;
     }
 
     .text-cont {
@@ -109,6 +114,12 @@
             margin-bottom: 30px;
         }
 
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
         .mobile {
             display: block;
             width: 100%;
@@ -119,11 +130,17 @@
         }
 
         .text-cont {
-            padding:6rem 1rem;
+            padding:4rem 2.5rem;
         }
 
         .par {
             font-size: 15px;
+        }
+
+        .cont {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center !important;
         }
     }
 

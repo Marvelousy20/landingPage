@@ -4,8 +4,10 @@
             <nav>
                 <ul>
                     <li>
-                        <img src="../assets/logo.png" class="desktop logo" alt="logo">
-                        <img src="../assets/mobile/EGM_.jpg" class="mobile" alt="logo">
+                        <!-- <img src="../assets/logo.png" class="desktop logo" alt="logo"> -->
+                        <img src="../assets/mobile/newlogo.svg" class="logo" alt="svg">
+                        <!-- <img src="../assets/mobile/newlogo.svg" class="desktop logo" alt="logo"> -->
+                        <!-- <img src="../assets/mobile/EGM_.jpg" class="mobile" alt="logo"> -->
                     </li>
                     <li class="spacer"></li>
                     <li class="line"><span class="contact"> Contact :</span> <span class="number">0803 513 8790</span></li>
@@ -17,15 +19,24 @@
 </template>
 
 <style scoped>
+    body {
+        font-family: 'Proxima Nova Light' !important;
+    }
+
+    .logo {
+        height: 60px;
+        width: 120px;
+    }
+
     header {
         height: 100px;
         background: #010C13;
         color: #fff;
-        font-family: 'Proxima Nova Light';
+        font-family: 'Proxima Nova Light' !important;
     }
 
     .contact, .email {
-        font-family: 'Proxina Nova !important';
+        font-family: 'Proxina Nova' !important;
         font-size: 15px;
     }
 
@@ -57,7 +68,7 @@
     }
 
     .number, .mail {
-        font-family: 'Proximal Nova Light'  !important;
+        font-family: 'Proximal Nova Light' !important;
         font-size: 15px;
         /* opacity: .9; */
     }
