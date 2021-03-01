@@ -3,7 +3,7 @@
         <div class="explore">
             <div class="explore-topic mb-2">
                 Explore Opportunities <br> In the <span class="global">Global Markets
-                    <img src="../assets/Green stroke 1.svg" alt="stroke">
+                    <img src="../assets/Green stroke 1.svg" class="stroke" alt="stroke">
                 </span>
             </div>
         </div>
@@ -248,6 +248,11 @@
             font-family: 'Proxima Nova Bold' !important;
             line-height: 90px !important;
         }
+
+        .stroke {
+            display: inline-block;
+            margin-top: 10px !important;
+        }
     }
 
     @media screen and (max-width: 650px) {
@@ -272,7 +277,6 @@
 
         .sub-topic {
             margin-top: 50px;
-            /* line-height: 44px; */
         }
 
         .button-cont, .sub-topic {
