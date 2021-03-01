@@ -83,7 +83,7 @@
     }
 
     .explore-topic {
-        font-family: 'Proxima Nova';
+        font-family: 'Proxima Nova Bold';
         font-size: 4.5vw;
         line-height: 75px !important;
     }
@@ -107,7 +107,7 @@
         .explore-topic {
             font-size: 8vw;
             text-align: center;
-            font-family: 'Proxima Nova';
+            font-family: 'Proxima Nova Bold';
             line-height: 2.5rem !important;
         }
 
@@ -225,7 +225,7 @@
 
     @media screen and (min-width: 1400px){
         .explore-topic {
-            font-family: 'Proxima Nova' !important;
+            font-family: 'Proxima Nova Bold' !important;
             font-size: 4.5vw;
             line-height: 75px !important;
         }
@@ -245,7 +245,7 @@
 
     @media screen and (min-width: 1500px) {
         .explore-topic {
-            font-family: 'Proxima Nova' !important;
+            font-family: 'Proxima Nova Bold' !important;
             line-height: 90px !important;
         }
     }

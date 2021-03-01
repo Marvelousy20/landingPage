@@ -57,7 +57,7 @@
     }
 
     .bold {
-        font-family: 'Proxima Nova';
+        font-family: 'Proxima Nova Bold';
         font-size: 21px;
         opacity: 1;
     }

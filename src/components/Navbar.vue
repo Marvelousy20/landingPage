@@ -67,6 +67,10 @@
         flex: 1;
     }
 
+    .email, .contact {
+        opacity: .9;
+    }
+
     .number, .mail {
         font-family: 'Proximal Nova Light' !important;
         font-size: 15px;
@@ -114,6 +118,7 @@
 
         .email {
             font-size: 12px;
+            opacity: .9;
         }
     }
 
@@ -137,6 +142,7 @@
 
         .email {
             font-size: 12px !important;
+            opacity: .9;
         }
     }
 </style>
