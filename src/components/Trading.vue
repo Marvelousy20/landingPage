@@ -214,7 +214,7 @@
             border-radius: 10px;
             margin: 0 0;
             padding: 25px 25px;
-            margin: 25px 25px;
+            margin: 20px 20px;
             height: 100%;
             width: 100%;
         }
@@ -255,7 +255,7 @@
         }
     }
 
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 376px) {
         .wrapper div {
             font-size: 17px !important;
             max-width: 100%;
