@@ -29,7 +29,7 @@
     }
 
     header {
-        height: 100px;
+        height: 120px;
         background: #010C13;
         color: #fff;
         font-family: 'Proxima Nova Light' !important;
