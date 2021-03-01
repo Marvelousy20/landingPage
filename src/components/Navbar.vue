@@ -122,4 +122,21 @@
             display: none;
         }
     }
+
+    @media screen and (max-width: 360px) {
+        .logo {
+            height: 50px;
+            width: 100px;
+        }
+
+        .number, .mail {
+            font-family: 'Proximal Nova Light' !important;
+            font-size: 10px !important;
+            opacity: .9;
+        }
+
+        .email {
+            font-size: 12px !important;
+        }
+    }
 </style>

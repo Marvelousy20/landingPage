@@ -88,6 +88,7 @@
     @media screen and (max-width: 700px) {
         .container-fluid {
             padding-top: 80px;
+            padding-bottom: 60px ;
         }
 
         .desktop {

@@ -254,4 +254,20 @@
             background-image: none;
         }
     }
+
+    @media screen and (max-width: 360px) {
+        .wrapper div {
+            font-size: 17px !important;
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .wrapper a>p {
+            font-size: 15px !important;
+        }
+
+        .wrapper p {
+            font-size: 15px !important;
+        }
+    }
 </style>
