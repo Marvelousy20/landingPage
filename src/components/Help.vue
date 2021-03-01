@@ -130,17 +130,21 @@
         }
 
         .text-cont {
-            padding:4rem 2.5rem;
+            padding: 4rem 2.5rem;
         }
 
         .par {
-            font-size: 15px;
+            font-size: 17px;
         }
 
         .cont {
             display: flex;
             flex-wrap: wrap;
             text-align: center !important;
+        }
+
+        span {
+            font-size: 18px;
         }
     }
 
@@ -218,6 +222,12 @@
 
         span, span a {
             font-size: 12px;
+        }
+    }
+
+    @media screen and (max-width: 380px) {
+        span {
+            font-size: 16px !important;
         }
     }
 </style>
