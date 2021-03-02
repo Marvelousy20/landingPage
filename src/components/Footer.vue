@@ -29,8 +29,7 @@
         </div>
 
         <div class="footer">
-            <div class="desktop"><img src="../assets/logo.png" alt=""></div>
-            <div class="mobile"><img src="../assets/mobile_logo.png" alt=""></div>
+            <div class="mobile"><img src="../assets/mobile/newlogo.svg" class="logo" alt="svg"></div>
             <div class="web">
                 <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
                 <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
@@ -42,6 +41,11 @@
 </template>
 
 <style scoped>
+    .logo {
+        height: 70px;
+        width: 140.5px;
+    }
+
     .container-fluid {
         background: #010C13;
         color: #fff;
@@ -50,10 +54,6 @@
         padding-left: 128px;
         padding: 128px;
         margin-top: -5px;
-    }
-
-    .hr {
-        margin: 100px 0;
     }
 
     .bold {
@@ -82,6 +82,8 @@
     hr {
         background: #fff;
         opacity: .5;
+        margin-top: 100px;
+        margin-bottom: 67px;
     }
 
     .footer {
@@ -126,9 +128,10 @@
             padding-bottom: 3rem !important;
         }
 
-        /* .web {
-            display: none;
-        } */
+        .logo {
+            height: 36px;
+            width: 74.5px;
+        }
 
         .desktop {
             display: none;
@@ -139,7 +142,7 @@
         }
 
         .hr {
-            margin: 60px 0;
+            margin-top: 60px 0;
         }
     }
 

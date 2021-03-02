@@ -209,8 +209,8 @@
 
         .svg {
             background: #146CE2;
-            height: 140px;
-            margin-top: -30px;
+            height: 87px;
+            margin-top: 0;
             width: 100%;
         }
     }
@@ -241,13 +241,6 @@
             font-size: 50px !important;
             font-weight: 500;
             max-width: 100%;
-        }
-
-        .svg {
-            background: #146CE2;
-            height: 240px !important;
-            margin-top: -60px;
-            width: 100%;
         }
 
         .bullet {
@@ -301,8 +294,8 @@
 
         .svg {
             background: #146CE2;
-            height: 140px;
-            margin-top: -60px;
+            height: 87px;
+            margin-top: 0;
             width: 100%;
         }
 

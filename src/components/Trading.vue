@@ -15,25 +15,16 @@
             <div class="wrapper">
                 <a href="#">
                     <div>
-                        <p class="a">Send in your proof <br class="desktop"> of Identification</p>
+                        <p class="a">Verify your Account</p>
                     </div>
-                    <p>Submit your passport, National ID, Driver’s License, or other forms of Identification to verify your account.</p>
+                    <p>Upload your passport, National ID, Driver’s License, or other forms of Identification.</p>
                 </a>
             </div>
 
             <div class="wrapper">
                 <a href="#">
                     <div>
-                        <p class="a">Choose the platform <br class="desktop"> of your choice</p>
-                    </div>
-                    <p>Our MT4, Cloudtrade & Copytrading Platforms are designed to make your trading experience better.</p>    
-                </a>
-            </div>
-
-            <div class="wrapper">
-                <a href="#">
-                    <div>
-                        <p class="a">Fund your account <br class="desktop"> & start trading</p>
+                        <p class="a">Fund your account & start trading</p>
                     </div>
                     <p>Use our range of payment options to start investing to deposit funds to your account.</p>
                 </a>
@@ -43,28 +34,14 @@
             <div class="wrapper">
                 <a href="#">
                     <div>
-                    <p class="a">Take our free trainings & become a pro trader</p>
+                    <p class="a">Take our free trainings</p>
                     </div>
                     <p>Get access to free, premium, trading education & resources for both beginners & experts.</p>
-                </a>
-                
-            </div>
-
-            <div class="wrapper">
-                <a href="#">
-                    <div>
-                        <p class="a">Speak to our <br class="desktop"> In-house analyst</p>
-                    </div>
-                    <p>Get 24/7 personal support from the experts on WhatsApp.</p>
-                </a>
-               
+                </a> 
             </div>
         </div>
 
         <div class="button-cont">
-            <!-- <a href="#"> 
-                <img src="../assets/Button without padding.svg" alt="button.png">
-            </a> -->
             <a href="#" class="btn-primary button">Open an account</a>
         </div>
     </div>
@@ -76,22 +53,25 @@
         font-family: 'Proxima Nova Light';
     }
 
+    p {
+        margin-bottom: 0 !important;
+    }
+
     .trading {
         font-size: 50px;
         text-align: center;
         margin-bottom: 40px;
         padding-top: 100px;
         max-width: 100vw;
-        /* margin: 80px 0; */
         font-family: 'Proxima Nova SemiBold';
     }
 
     .wrapper {
         border: 1px solid #104EA1;
         border-radius: 10px;
-        height: 250px;
-        width: 385px;
-        margin: 20px 20px;
+        height: 206px;
+        width: 475px;
+        margin: 30px 30px;
         padding: 40px 40px;
     }
 
@@ -133,16 +113,11 @@
 
     .wrapper div {
         font-size: 24px;
-        max-width: 250px;
         margin-bottom: 20px;
     }
 
     .wrapper a>p {
         font-size: 19px;
-    }
-
-    .wrapper div>* {
-        width: 100% !important;
     }
 
     .wrapper a {
@@ -160,7 +135,6 @@
     }
 
     .wrapper p {
-        max-width: 300px;
         font-size: 19px;
     }
 
@@ -169,9 +143,10 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-
-    .wrapper-cont >* {
-        margin-right: 20px;
+    
+    div.wrapper {
+        display: flex;
+        align-items: center;
     }
 
     @media screen and (max-width: 700px) {
@@ -275,7 +250,7 @@
         }
 
         .wrapper p {
-            font-size: 17.5px !important;
+            font-size: 3.8vw !important;
         }
     }
 

@@ -151,10 +151,19 @@
 
     @media screen and (max-width: 700px) and (min-width: 500px) {
         .section-one-cont {
-            background: url('../assets/mobile/heroa.png');
-            /* background-position: center; */
+            background: url('../assets/mobile/new.png');
+            background-repeat: no-repeat;
+            background-position: right;
             background-size: cover;
-            color: #fff;
+            padding: 5px 30px;
+            height: 1250px !important;
+            line-height: 45px !important;
+        }
+
+        .explore {
+            display: flex;
+            flex-direction: column;
+            margin-top: 160px;
         }
 
         .explore-topic {
@@ -272,15 +281,19 @@
         }
     }
 
-     @media screen and (max-width: 450px) {
+     @media screen and (max-width: 500px) {
         .section-one-cont {
             background: url('../assets/mobile/new.png');
             background-repeat: no-repeat;
             background-position: right;
             background-size: cover;
             padding: 5px 30px;
-            height: 910px !important;
+            height: 1100px !important;
             line-height: 45px !important;
+        }
+
+        .explore {
+            margin-top: 160px;
         }
 
         .sub-topic {
