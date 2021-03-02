@@ -229,8 +229,38 @@
     }
 
     @media screen and (max-width: 850px) and (min-width: 701px) {
-        .wrapper-cont {
-            justify-content: center;
+        .wrapper-cont>* {
+            width: 100%;
+        }
+
+        .button {
+            padding: 1.9rem 2.4rem;
+        }
+
+        .desktop {
+            display: none;
+        }
+
+        .button-cont a {
+            font-size: 24px;
+        }
+
+        .wrapper {
+            padding: 25px 45px;
+            margin: 30px 30px;
+            height: 100%;
+            width: 100%;
+        }
+
+        .wrapper p {
+            max-width: 100%;
+            font-size: 25px !important;
+        }
+
+        .wrapper div {
+            font-size: 24px;
+            max-width: 100%;
+            margin-bottom: 20px;
         }
     }
 

@@ -101,7 +101,6 @@
     li {
         display: flex;
         align-items: flex-start;
-        /* flex-direction: column; */
     }
 
     .spacer {
@@ -147,7 +146,6 @@
     }
 
     ul {
-        /* max-width: 580px; */
         list-style: none;
     }
 
@@ -217,7 +215,7 @@
         }
     }
 
-    @media screen and (max-width: 1199px) and (min-width: 850px) {
+    @media screen and (max-width: 1199px) and (min-width: 950px) {
         .plat-images {
             width: 50%;
         }
@@ -238,27 +236,78 @@
         }
     }
 
-    @media screen and (max-width: 850px) and (min-width: 701px) {
-        .svg{
-            height: 120px;
-            margin-top: 0;
+    @media screen and (max-width: 950px) and (min-width: 701px) {
+        .three {
+            font-size: 50px !important;
+            font-weight: 500;
+            max-width: 100%;
         }
 
-        .spacer {
-            display: none;
+        .svg {
+            background: #146CE2;
+            height: 240px !important;
+            margin-top: -60px;
+            width: 100%;
+        }
+
+        .bullet {
+            display: list-item;                                                 
+            list-style-type: disc;       
+            list-style-position: inside;
+            font-size: 35px;
+            margin-top: -3px;
+        }
+
+        .cont {
+            margin-top: 140px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .plat-images {
+            width: 100%;
+        }
+
+        .plat-images img {
+            width: 100%;
         }
 
         .img-cont {
             width: 100%;
-            margin-top: 60px;
+            margin-top: 90px;
         }
 
         .img-cont img {
             width: 100%;
         }
 
-        .cont {
-            flex-wrap: nowrap ;
+        .plat {
+            padding-left: 0;
+        }
+
+        ul {
+            max-width: 100%;
+        }
+
+        b, span {
+            font-size: 35px !important;
+        }
+        
+        .spacer {
+            display: none;
+        }
+
+        .svg {
+            background: #146CE2;
+            height: 140px;
+            margin-top: -60px;
+            width: 100%;
+        }
+
+        li {
+            margin-top: 30px;
         }
     }
 

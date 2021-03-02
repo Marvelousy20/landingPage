@@ -98,15 +98,37 @@
         color: #146CE2;
     }
 
+    @media screen and (max-width: 950px) and (min-width: 701px) {
+        .container-fluid {
+            padding: 0 70px !important;
+            padding-top: 120px !important;
+            padding-bottom: 80px;
+        }
+
+        .desktop {
+            display: none;
+        }
+
+        .mobile {
+            display: block;
+        }
+
+        span {
+            font-family: 'Proxima Nova Light';
+            font-size: 26px !important;
+            opacity: .8;
+        }
+    }
+
     @media screen and (max-width: 700px) {
         .container-fluid {
             padding: 90px 2rem !important;
             padding-bottom: 3rem !important;
         }
 
-        .web {
+        /* .web {
             display: none;
-        }
+        } */
 
         .desktop {
             display: none;

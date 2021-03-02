@@ -187,12 +187,12 @@
 
     @media screen and (max-width: 850px) and (min-width: 701px) {
         .section-one-cont {
-            /* background: url('../assets/mobile/heroa.png'); */
-            background: url('../assets/mobile/new.png');
+            background: url('../assets/mobile/b.png');
+            /* background: url('../assets/mobile/new.png'); */
             background-repeat: no-repeat;
             background-size: cover;
             background-position: right;
-            height: 1350px; 
+            height: 1750px; 
             color: #fff;
         }
 
@@ -220,6 +220,14 @@
 
         .balls {
             display: none;
+        }
+
+        .button {
+            padding: 1.9rem 2.4rem;
+        }
+
+        .button-cont a {
+            font-size: 24px;
         }
     }
 

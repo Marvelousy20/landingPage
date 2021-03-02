@@ -158,13 +158,24 @@
             display: block;
         }
 
+        .img {
+            text-align: center !important;
+            margin: 0 auto;
+            margin-bottom: 26px;
+        }
+
         .img-text-cont div {
             margin-top: 50px;
         }
+
+        .uncover {
+            font-size: 34px;
+            margin-bottom: 56px;
+            line-height: 50px;
+        }
     }
 
-
-     @media screen and (min-width: 1600px) {
+    @media screen and (min-width: 1600px) {
         .uncover {
             font-family: 'Proxima Nova SemiBold' !important;
         }

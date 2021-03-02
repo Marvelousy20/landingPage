@@ -126,6 +126,17 @@
         .line {
             display: none;
         }
+
+        .mail {
+            font-family: 'Proximal Nova Light' !important;
+            font-size: 21px !important;
+            opacity: .9;
+        }
+
+        .email {
+            font-size: 21px !important;
+            opacity: .9;
+        }
     }
 
     @media screen and (max-width: 360px) {

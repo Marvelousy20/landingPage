@@ -102,7 +102,7 @@
         display: none;
     }
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 950px) {
         .img-cont img {
             display: none;
         }
@@ -134,6 +134,7 @@
         }
 
         .par {
+            font-family: 'Proxima Nova Regular';
             font-size: 17px;
         }
 
@@ -148,7 +149,7 @@
         }
     }
 
-    @media screen and (max-width: 1199px) and (min-width: 850px) {
+    @media screen and (max-width: 1199px) and (min-width: 950px) {
         .img-cont {
            width: 49%;
         }
@@ -163,7 +164,8 @@
         }
 
         .par {
-           max-width: 300px;
+            font-family: 'Proxima Nova Regular';
+            max-width: 300px;
         }
 
         .e {
@@ -171,27 +173,40 @@
         }
     }
 
-    @media screen and (max-width: 850px) and (min-width: 701px) {
-        .img-cont {
-           width: 49%;
+    @media screen and (max-width: 950px) and (min-width: 701px) {
+       .text-cont {
+            align-self: center;
+            max-width: 100% !important;
+            margin: 0 auto;
         }
 
-       .img-cont img {
-           width: 100%;
+        .text-cont {
+            padding: 6rem 2.5rem;
         }
 
-       .help {
-           text-align: center;
-           margin-bottom: 20px;
+        .help {
+            font-size: 5.5vw;
         }
 
-       .par {
-           max-width: 300px;
+        .flex p {
+            height: 11px !important;
+            width: 11px !important;
+            background: #146CE2;
+            border-radius: 50%;
+            margin:0;
+            margin-right: 20px;
         }
 
-       .e {
-           margin-top: 30px !important;
+        .par {
+            max-width: 600px;
+            font-size: 29px;
+            font-family: 'Proxima Nova Regular';
         }
+
+        span {
+            font-size: 28px;
+        }
+
     }
 
     @media screen and (max-width: 420px) {
