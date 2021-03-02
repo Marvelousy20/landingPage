@@ -29,12 +29,19 @@
         </div>
 
         <div class="footer">
-            <div class="mobile"><img src="../assets/mobile/newlogo.svg" class="logo" alt="svg"></div>
-            <div class="web">
+            <div><img src="../assets/mobile/newlogo.svg" class="logo" alt="svg"></div>
+            <div class="web desktop">
                 <a href="https://web.facebook.com/eagleglobalmarkets" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
                 <a href="https://instagram.com/egmarkets/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
                 <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
                 <a href="https://www.twitter.com/egmarkets" target="_blank"><i class="fab fa-twitter fa-2x"></i></a> 
+            </div>
+
+            <div class="web mobile">
+                <a href="https://web.facebook.com/eagleglobalmarkets" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="https://instagram.com/egmarkets/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+                <a href="https://www.twitter.com/egmarkets" target="_blank"><i class="fab fa-twitter fa-lg"></i></a> 
             </div>
         </div>
     </div>
@@ -159,6 +166,15 @@
             font-family: 'Proxima Nova Light';
             font-size: 16px !important;
             opacity: .8;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .web a{
+            font-family: 'Proxima Nova Light';
+            color: #fff;
+            opacity: .8;
+            margin-right: 15px;
         }
     }
 </style>
