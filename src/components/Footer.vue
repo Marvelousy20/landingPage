@@ -31,10 +31,10 @@
         <div class="footer">
             <div class="mobile"><img src="../assets/mobile/newlogo.svg" class="logo" alt="svg"></div>
             <div class="web">
-                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://web.facebook.com/eagleglobalmarkets" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://instagram.com/egmarkets/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
                 <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
-                <a href="#"><i class="fab fa-twitter fa-2x"></i></a> 
+                <a href="https://www.twitter.com/egmarkets" target="_blank"><i class="fab fa-twitter fa-2x"></i></a> 
             </div>
         </div>
     </div>
