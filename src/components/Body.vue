@@ -78,7 +78,7 @@
     }
 
     .button-cont a {
-        font-family: 'Proxima Nova Light';
+        font-family: 'Proxima Nova SemiBold';
         font-size: 24px;
     }
 
@@ -163,7 +163,7 @@
         .explore {
             display: flex;
             flex-direction: column;
-            margin-top: 160px;
+            margin-top: 100px;
         }
 
         .explore-topic {
@@ -293,7 +293,7 @@
         }
 
         .explore {
-            margin-top: 160px;
+            margin-top: 100px;
         }
 
         .sub-topic {
@@ -330,7 +330,7 @@
         }
 
         .explore {
-            margin-top: 120px !important;
+            margin-top: 50px !important;
         }
     }
 
@@ -340,7 +340,7 @@
         }
 
         .explore {
-            margin-top: 60px !important;
+            margin-top: 40px !important;
         }
     }
 </style>

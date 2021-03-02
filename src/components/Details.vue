@@ -34,7 +34,7 @@
             <div>
                 <img class="img desktop" src="../assets/wallet.svg" alt="">
                 <img class="img mobile" src="../assets/mobile/wallet.png" alt="">
-                <div class="text mt-3">100% safety <br> guaranteed</div>
+                <div class="text mt-3">100% funds safety <br> guaranteed</div>
             </div>
         </div>
     </div>
@@ -87,7 +87,7 @@
 
     @media screen and (max-width: 700px) {
         .container-fluid {
-            padding-top: 80px;
+            padding-top: 60px;
             padding-bottom: 60px ;
         }
 
