@@ -333,4 +333,14 @@
             margin-top: 120px !important;
         }
     }
+
+    @media screen and (max-width: 350px) {
+        .section-one-cont {
+            height: 850px !important;
+        }
+
+        .explore {
+            margin-top: 60px !important;
+        }
+    }
 </style>
