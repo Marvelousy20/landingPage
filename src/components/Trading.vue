@@ -8,7 +8,7 @@
                     <div>
                         <p class="a">Complete the Registration form</p>
                     </div>
-                    <p>Filling in your details is hassle-free And takes less than a minute to complete.</p>
+                    <p>Filling in your details is hassle-free and takes less than a minute to complete.</p>
                 </a>
             </div>
             
@@ -17,7 +17,7 @@
                     <div>
                         <p class="a">Verify your Account</p>
                     </div>
-                    <p>Upload your passport, National ID, Driver’s License, or other forms of Identification.</p>
+                    <p>Upload your passport, National ID, Driver’s License, <br class="mobile"> or other forms of Identification.</p>
                 </a>
             </div>
 
@@ -198,6 +198,10 @@
             font-size: 19px;
         }
 
+        .button {
+            border-radius: 12px;
+        }
+
         .wrapper p {
             font-size: 17.5px !important;
         }
@@ -252,6 +256,10 @@
         .wrapper p {
             font-size: 3.8vw !important;
         }
+
+        .wrapper div {
+            margin-bottom: 5px;
+        }
     }
 
     @media screen and (max-width: 800px) {
@@ -264,11 +272,11 @@
         .wrapper div {
             font-size: 17px !important;
             max-width: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 5px;
         }
 
         .wrapper a>p {
-            font-size: 15px !important;
+            font-size: 12px !important;
         }
 
         .wrapper p {

@@ -108,7 +108,7 @@
         }
 
         .help {
-            font-size: 26px;
+            font-size: 36px;
             font-weight: 700;
             text-align: center;
             margin-bottom: 30px;
@@ -134,8 +134,8 @@
         }
 
         .par {
-            font-family: 'Proxima Nova Regular';
-            font-size: 17px;
+            font-family: 'Proxima Nova Regular' !important;
+            font-size: 15px;
         }
 
         .cont {

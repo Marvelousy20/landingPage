@@ -2,7 +2,7 @@
     <div>
         <section class="cont">
             <section class="plat">
-                <div class="three">3 platforms to choose from</div>
+                <div class="three">3 platforms to <br class="mobile-b"> choose from</div>
 
                 <ul class="list-cont mt-4">
                     <div class="flex">
@@ -49,7 +49,8 @@
             <section class="spacer"></section>
             <section class="plat-images">
                 <div class="img-cont">
-                    <img src="../assets/image-sec.png" alt="">
+                    <img src="../assets/image-sec.png" class="desktop-b" alt="">
+                    <img src="../assets/image-sec2.png" class="mobile-b" alt="">
                 </div>
             </section>
         </section>
@@ -169,13 +170,14 @@
 
     @media screen and (max-width: 700px) {
         .three {
-            font-size: 28px;
+            font-size: 36px;
             text-align: center;
+            line-height: 40px;
             font-weight: 500;
         }
 
         .cont {
-            margin-top: 140px;
+            margin-top: 80px;
             width: 100%;
             display: flex;
             flex-wrap: wrap;
@@ -197,10 +199,15 @@
         ul {
             max-width: 100%;
             padding:0 50px;
+            margin-bottom: 0;
+        }
+
+        .plat-images {
+            margin-top: -20px !important;
         }
 
         span {
-            font-size: 18px;
+            font-size: 18px !important;
         }
         
         .spacer {
@@ -210,8 +217,17 @@
         .svg {
             background: #146CE2;
             height: 87px;
-            margin-top: 0;
+            /* margin-top: -40px; */
+            margin-top: -33px;
             width: 100%;
+        }
+
+        .mobile-b {
+            display: block;
+        }
+
+        .desktop-b {
+            display: none;
         }
     }
 
@@ -285,7 +301,7 @@
         }
 
         b, span {
-            font-size: 35px !important;
+            font-size: 25px !important;
         }
         
         .spacer {
