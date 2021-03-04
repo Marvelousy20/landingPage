@@ -17,7 +17,7 @@
         </div>
         
         <div class="button-cont">
-            <a href="#" class="btn-primary button">Open an account</a>
+            <a href="https://clients.eagleglobalmarkets.com/#/" class="btn-primary button">Open an account</a>
         </div>
     </section>
 </template>

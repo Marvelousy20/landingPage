@@ -7,7 +7,7 @@
                         <img src="../assets/mobile/newlogo.svg" class="logo" alt="svg">
                     </li>
                     <li class="spacer"></li>
-                    <li class="line"><span class="contact"> Contact :</span> <span class="number"><a href="https://wa.link/3kimvi">090 829 08871</a></span></li>
+                    <li class="line"><span class="contact"> Contact :</span> <span class="number"><a href="https://wa.link/3kimvi" target="_blank">090 829 08871</a></span></li>
                     <li><span class="email"> Email : </span> <span class="mail"><a href="mailto: support@eagleglobalmarkets.com">support@eagleglobalmarkets.com</a></span></li>
                 </ul>
             </nav>
