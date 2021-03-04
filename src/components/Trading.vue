@@ -57,6 +57,10 @@
         margin-bottom: 0 !important;
     }
 
+    .mobile {
+        display: none;
+    }
+
     .trading {
         font-size: 50px;
         text-align: center;
