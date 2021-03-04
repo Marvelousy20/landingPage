@@ -16,20 +16,23 @@
 </template>
 
 <style scoped>
-    body {
-        font-family: 'Proxima Nova Light' !important;
-    }
-
     .logo {
         height: 70px;
         width: 140.5px;
+    }
+
+    .mail, .number {
+        font-family: 'Proxima Nova Light', 'sans-serif';
+    }
+
+    .contact, .email {
+        font-family: 'Proxima Nova Bold', sans-serif;
     }
 
     header {
         height: 100px;
         background: #010C13;
         color: #fff;
-        font-family: 'Proxima Nova Light' !important;
     }
 
     a {
@@ -43,7 +46,6 @@
     }
 
     .contact, .email {
-        font-family: 'Proxina Nova' !important;
         font-size: 15px;
     }
 
@@ -79,7 +81,6 @@
     }
 
     .number, .mail {
-        font-family: 'Proximal Nova Light' !important;
         font-size: 15px;
         opacity: .9;
     }
@@ -118,7 +119,6 @@
         }
 
         .number, .mail {
-            font-family: 'Proximal Nova Light' !important;
             font-size: 12px;
             opacity: .9;
         }
@@ -135,7 +135,6 @@
         }
 
         .mail {
-            font-family: 'Proximal Nova Light' !important;
             font-size: 21px !important;
             opacity: .9;
         }
@@ -153,7 +152,6 @@
         }
 
         .number, .mail {
-            font-family: 'Proximal Nova Light' !important;
             font-size: 10px !important;
             opacity: .9;
         }

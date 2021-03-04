@@ -40,7 +40,7 @@
             <div class="web mobile">
                 <a href="https://web.facebook.com/eagleglobalmarkets" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
                 <a href="https://instagram.com/egmarkets/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
-                <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+                <a href="https://www.youtube.com/channel/UCygWKOVLhXCZFg8KcLtw7kg"><i class="fab fa-youtube fa-lg"></i></a>
                 <a href="https://www.twitter.com/egmarkets" target="_blank"><i class="fab fa-twitter fa-lg"></i></a> 
             </div>
         </div>
