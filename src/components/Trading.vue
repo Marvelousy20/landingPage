@@ -32,7 +32,7 @@
             </div>
 
             <div class="wrapper">
-                <a href="#">
+                <a href="https://eagleglobalmarkets.us13.list-manage.com/subscribe/post?u=851b7c62204d5c1c917038d46&amp;id=1d6dc871aa" target="_blank">
                     <div>
                     <p class="a">Take our free trainings</p>
                     </div>
@@ -42,7 +42,7 @@
         </div>
 
         <div class="button-cont">
-            <a href="https://clients.eagleglobalmarkets.com/#/" class="btn-primary button">Open an account</a>
+            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" class="btn-primary button">Open an account</a>
         </div>
     </div>
 </template>
@@ -89,7 +89,7 @@
     }
 
     .button-cont a {
-        font-family: 'Proxima Nova SemiBold';
+        font-family: 'Proxima Nova Regular';
         font-size: 24px;
     }
 

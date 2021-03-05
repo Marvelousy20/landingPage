@@ -78,7 +78,7 @@
     }
 
     .button-cont a {
-        font-family: 'Proxima Nova SemiBold';
+        font-family: 'Proxima Nova Regular';
         font-size: 24px;
     }
 

@@ -46,7 +46,6 @@
         background-image: url('../assets/MaskGroup5.svg');
         background-color:rgb(1,12,19);
         padding: 120px 0;
-        font-family: 'Proxima Nova Regular';
     }
 
     .uncover {
@@ -54,7 +53,7 @@
         text-align: center;
         margin: 20px 0;
         margin-bottom: 120px;
-        font-family: 'Proxima Nova SemiBold' !important;
+        font-family: 'Proxima Nova SemiBold';
         line-height: 63px;
     }
 
@@ -73,12 +72,13 @@
         margin-right: 100px !important;
         justify-content: space-between;
         margin: 0 auto;
+        font-family: 'Proxima Nova Regular';
+        font-weight: 100 !important;
     }
 
     .img-text-cont div>div {
         max-width: 400px;
         font-size: 29px;
-        font-weight: 400px;
     }
 
     .img {
@@ -123,7 +123,6 @@
 
         .img-text-cont div>div {
             font-size: 19px;
-            font-family: 'Proxima Nova Regular' !important;
         }
 
         .text {
@@ -139,7 +138,6 @@
         .img-text-cont div>div {
             max-width: 250px;
             font-size: 24px;
-            font-weight: 400px;
         }
     }
 
