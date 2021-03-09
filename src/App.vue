@@ -7,6 +7,7 @@
     <Platform />
     <Help />
     <Footer />
+    <!-- <Subscribe /> -->
   </div>
 </template>
 
@@ -28,7 +29,7 @@ export default {
     Trading,
     Platform,
     Help,
-    Footer
+    Footer,
   }
 }
 </script>

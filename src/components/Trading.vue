@@ -32,12 +32,12 @@
             </div>
 
             <div class="wrapper">
-                <a href="https://eagleglobalmarkets.us13.list-manage.com/subscribe/post?u=851b7c62204d5c1c917038d46&amp;id=1d6dc871aa" target="_blank">
+                <a href="https://eepurl.com/hqgVXj" target="_blank">
                     <div>
                     <p class="a">Take our free trainings</p>
                     </div>
                     <p>Get access to free, premium, trading education & resources for both beginners & experts.</p>
-                </a> 
+                </a>
             </div>
         </div>
 
