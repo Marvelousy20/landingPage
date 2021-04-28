@@ -49,8 +49,16 @@
             <section class="spacer"></section>
             <section class="plat-images">
                 <div class="img-cont">
-                    <img src="../assets/image-sec.png" class="desktop-b" alt="">
-                    <img src="../assets/image-sec2.png" class="mobile-b" alt="">
+                    <picture class="desktop-b">
+                        <source srcset="../assets/image-sec.webp" type="image/webp">
+                        <source srcset="../assets/image-sec.png" type="image/png"> 
+                        <img src="../assets/image-sec.png" alt="Image">
+                    </picture>
+                    <picture class="mobile-b">
+                        <source srcset="../assets/image-sec2.webp" type="image/webp">
+                        <source srcset="../assets/image-sec2.png" type="image/png"> 
+                        <img src="../assets/image-sec2.png" alt="Image">
+                    </picture>
                 </div>
             </section>
         </section>

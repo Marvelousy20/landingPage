@@ -35,7 +35,7 @@
     }
 
     .section-one-cont {
-        background: url('../assets/hero.png');
+        background: url('../assets/hero.webp');
         background-repeat: no-repeat;
         background-position-x: right;
         background-size: cover;
@@ -181,12 +181,10 @@
     
     @media screen and (max-width: 1199px) and (min-width: 850px) {
        .section-one-cont {
-            /* background: url('../assets/MH.png'); */
             background-repeat: no-repeat;
             background-size: cover;
             height: 1200px;
             background-position-y: bottom;
-            /* padding: 3.5em 6.25em; */
         }
 
         .explore-topic {
@@ -196,7 +194,7 @@
 
     @media screen and (max-width: 850px) and (min-width: 701px) {
         .section-one-cont {
-            background: url('../assets/mobile/b.png');
+            /* background: url('../assets/mobile/b.png'); */
             /* background: url('../assets/mobile/new.png'); */
             background-repeat: no-repeat;
             background-size: cover;
@@ -283,7 +281,7 @@
 
      @media screen and (max-width: 500px) {
         .section-one-cont {
-            background: url('../assets/mobile/new.png');
+            background: url('../assets/mobile/new.webp');
             background-repeat: no-repeat;
             background-position: right;
             background-size: cover;

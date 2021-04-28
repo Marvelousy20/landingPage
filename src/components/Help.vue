@@ -3,7 +3,11 @@
         <div class="svg"></div>
         <div class="cont">
             <div class="img-cont">
-                <img src="../assets/Component 6 – 1.png" alt="img">
+                <picture>
+                    <source srcset="../assets/man.webp" type="image/webp">
+                    <source srcset="../assets/man.png" type="image/png"> 
+                    <img src="../assets/man.png" alt="Alt Text!">
+                </picture>
             </div>
             <div class="text-cont">
                 <div class="help">Still need help?</div>
@@ -31,7 +35,11 @@
                 </ul>
             </div>
             <div class="mobile">
-                <img src="../assets/Component 6 – 1.png" alt="img">
+                <picture>
+                    <source srcset="../assets/man.webp" type="image/webp">
+                    <source srcset="../assets/man.png" type="image/png"> 
+                    <img src="../assets/man.png" alt="Computer">
+                </picture>
             </div>
         </div>
     </div>
