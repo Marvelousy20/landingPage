@@ -1,6 +1,11 @@
 <template functional>
     <section class="section-one-cont">
         <div class="explore">
+            <picture class="desktop">
+                <source srcset="../assets/hero.webp" type="image/webp">
+                <source srcset="../assets/hero.png" type="image/png"> 
+                <img src="../assets/hero.png" alt="Image">
+            </picture>
             <div class="explore-topic mb-2">
                 Explore Opportunities <br> In the <span class="global">Global Markets
                     <img src="../assets/Green stroke 1.svg" class="stroke" alt="stroke">
@@ -27,6 +32,19 @@
         position: relative;
     }
 
+    picture {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    picture source, img {
+        width: 100%;
+        /* height: 929px; */
+    }
+
     .global img {
         position: absolute;
         top: 3.7rem;
@@ -35,15 +53,17 @@
     }
 
     .section-one-cont {
-        background: url('../assets/hero.webp');
-        background-repeat: no-repeat;
+        /* background: url('../assets/hero.webp'); */
+        /* background-repeat: no-repeat;
         background-position-x: right;
-        background-size: cover;
-        height: 929px;
+        background-size: cover; */
+        /* height: 929px; */
         color: #fff;
         position: relative;
         padding: 6.25em;
         padding-top: 5em;
+        /* bottom: 100px; */
+        margin-bottom: 120px;
     }
 
     .button {
@@ -71,10 +91,12 @@
     .sub-topic {
         margin-top: 70px;
         line-height: 44px;
+        position: relative;
     }
 
     .button-cont {
         margin-top: 90px;
+        position: relative;
     }
 
     .button-cont a {
@@ -86,6 +108,7 @@
         font-family: 'Proxima Nova Bold';
         font-size: 4.5vw;
         line-height: 75px !important;
+        position: relative;
     }
 
     .sub-topic {
@@ -123,12 +146,12 @@
         }
 
         .section-one-cont {
-            background: url('../assets/mobile/heroa.png');
+            /* background: url('../assets/mobile/heroa.png'); */
             background-repeat: no-repeat;
             background-position-x: right;
             background-size: cover;
             padding: 25px 30px;
-            height: 1000px; 
+            /* height: 1000px;  */
             color: #fff;
         }
 
@@ -288,6 +311,7 @@
             padding: 5px 30px;
             height: 1100px !important;
             line-height: 45px !important;
+            margin-bottom: 0;
         }
 
         .explore {

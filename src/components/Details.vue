@@ -43,7 +43,7 @@
 <style scoped>
     .container-fluid {
         color: #fff;
-        background-image: url('../assets/MaskGroup5.svg');
+        background-image: url('../assets/MaskGroup5.webp');
         background-color:rgb(1,12,19);
         padding: 120px 0;
     }

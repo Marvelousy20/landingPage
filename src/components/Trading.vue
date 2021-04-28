@@ -49,7 +49,7 @@
 
 <style scoped>
     .trade-cont {
-        background-image: url('../assets/MaskGroup5.svg');
+        background-image: url('../assets/MaskGroup5.webp');
         font-family: 'Proxima Nova Light';
     }
 
