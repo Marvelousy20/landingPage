@@ -1,4 +1,4 @@
-<template>
+<template functional>
     <div class="trade-cont">
         <div class="trading">Start trading in a few clicks</div>
 

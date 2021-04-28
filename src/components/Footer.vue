@@ -1,4 +1,4 @@
-<template>
+<template functional>
     <div class="container-fluid">
         <span class="bold">Risk warning:</span> <span>Investing in Eagle Global Markets derivative products 
         carries significant risks and is not suitable for all investors. <br class="desktop"> 

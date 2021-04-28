@@ -1,4 +1,4 @@
-<template>
+<template functional>
     <div class="container-fluid">
         <div class="uncover-cont">
             <div class="uncover desktop d">

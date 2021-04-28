@@ -1,4 +1,4 @@
-<template>
+<template functional>
     <div>
         <div class="svg"></div>
         <div class="cont">

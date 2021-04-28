@@ -1,4 +1,4 @@
-<template>
+<template functional>
     <section class="section-one-cont">
         <div class="explore">
             <div class="explore-topic mb-2">
@@ -181,7 +181,7 @@
     
     @media screen and (max-width: 1199px) and (min-width: 850px) {
        .section-one-cont {
-            background: url('../assets/MH.png');
+            /* background: url('../assets/MH.png'); */
             background-repeat: no-repeat;
             background-size: cover;
             height: 1200px;

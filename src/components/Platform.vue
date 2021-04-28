@@ -1,4 +1,4 @@
-<template>
+<template functional>
     <div>
         <section class="cont">
             <section class="plat">
