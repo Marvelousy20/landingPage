@@ -103,6 +103,11 @@
         margin-top: -3px;
     }
 
+    picture source, img {
+        width: 100%;
+        height: 100%;
+    }
+
     .mobile-b {
         display: none;
     }

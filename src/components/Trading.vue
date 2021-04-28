@@ -4,7 +4,7 @@
 
         <div class="wrapper-cont">
             <div class="wrapper">
-                <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+                <a rel="noopener" href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
                     <div>
                         <p class="a">Complete the Registration form</p>
                     </div>
@@ -13,7 +13,7 @@
             </div>
             
             <div class="wrapper">
-                <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+                <a rel="noopener" href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
                     <div>
                         <p class="a">Verify your Account</p>
                     </div>
@@ -22,7 +22,7 @@
             </div>
 
             <div class="wrapper">
-                <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+                <a rel="noopener" href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
                     <div>
                         <p class="a">Fund your account & start trading</p>
                     </div>
@@ -32,7 +32,7 @@
             </div>
 
             <div class="wrapper">
-                <a href="https://eepurl.com/hqgVXj" target="_blank">
+                <a rel="noopener" href="https://eepurl.com/hqgVXj" target="_blank">
                     <div>
                     <p class="a">Take our free trainings</p>
                     </div>
@@ -42,7 +42,7 @@
         </div>
 
         <div class="button-cont">
-            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" class="btn-primary button">Open an account</a>
+            <a rel="noopener" href="https://clients.eagleglobalmarkets.com/#/" target="_blank" class="btn-primary button">Open an account</a>
         </div>
     </div>
 </template>

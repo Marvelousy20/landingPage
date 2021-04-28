@@ -1,9 +1,9 @@
-<template functional>
+<template>
     <section class="section-one-cont">
         <div class="explore">
             <picture class="desktop">
-                <source srcset="../assets/hero.webp" type="image/webp">
-                <source srcset="../assets/hero.png" type="image/png"> 
+                <source class="lazy" srcset="../assets/hero.webp" type="image/webp">
+                <source class="lazy" srcset="../assets/hero.png" type="image/png"> 
                 <img src="../assets/hero.png" alt="Image">
             </picture>
             <div class="explore-topic mb-2">
@@ -22,7 +22,7 @@
         </div>
         
         <div class="button-cont">
-            <a href="https://clients.eagleglobalmarkets.com/#/" class="btn-primary button">Open an account</a>
+            <a rel="preload" href="https://clients.eagleglobalmarkets.com/#/" class="btn-primary button">Open an account</a>
         </div>
     </section>
 </template>
